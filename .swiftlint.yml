@@ -1,0 +1,38 @@
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+  - file_length
+  - type_body_length
+  - function_body_length
+  - cyclomatic_complexity
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+  - explicit_init
+  - first_where
+  - force_unwrapping
+  - private_outlet
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - sorted_first_last
+
+included:
+  - Sources
+  - Tests
+
+excluded:
+  - .build
+  - .swiftpm
+
+line_length:
+  warning: 120
+  error: 200
+
+identifier_name:
+  min_length: 1
+  max_length: 60
+
+function_parameter_count:
+  warning: 8
+  error: 10
