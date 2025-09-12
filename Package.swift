@@ -23,12 +23,12 @@ let package = Package(
                 .product(name: "HummingbirdFoundation", package: "hummingbird"),
                 .product(name: "Logging", package: "swift-log"),
             ],
-            path: "Sources"
+            path: "Sources",
         ),
         .testTarget(
             name: "GhostSayTests",
             dependencies: ["GhostSay"],
-            path: "Tests"
+            path: "Tests",
         ),
-    ]
+    ],
 )
