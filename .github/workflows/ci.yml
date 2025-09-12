@@ -17,7 +17,7 @@ jobs:
     - name: Setup Swift
       uses: swift-actions/setup-swift@v1
       with:
-        swift-version: "6.1"
+        swift-version: "6.0"
         
     - name: Cache Swift Package Manager
       uses: actions/cache@v3
@@ -55,7 +55,7 @@ jobs:
     - name: Setup Swift
       uses: swift-actions/setup-swift@v1
       with:
-        swift-version: "6.1"
+        swift-version: "6.0"
         
     - name: Install SwiftLint
       run: brew install swiftlint
