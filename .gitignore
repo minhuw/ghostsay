@@ -97,3 +97,7 @@ iOSInjectionProject/
 
 # PRDs
 prds/
+
+# Build artifacts
+*.dmg
+dist/
