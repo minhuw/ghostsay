@@ -1,8 +1,10 @@
 # GhostSay
 
+> [!NOTE]
 > **LLM Usage Notice:** This project was designed by [@minhuw](https://github.com/minhuw) and implemented **entirely** by [Claude Code](https://claude.ai/code). Use at your own discretion.
 
-> **Security Notice:** Recommended for deployment on private networks (e.g., Tailscale) to prevent unauthorized access. This project does not implement robust security defenses.
+> [!WARNING]
+> **Security Notice:** Recommended for deployment on private networks (e.g., [Tailscale](https://tailscale.com/)) to prevent unauthorized access. This project does not implement robust security defenses.
 
 A lightweight macOS menubar app that lets you trigger text-to-speech notifications from any remote machine to alert the poor guy sitting in front of it.
 
@@ -54,4 +56,7 @@ curl -s "http://<YOUR_MAC_IP>:57630/say?text=node%20$(hostname)%20mission%20acco
 }
 ```
 
-Replace `YOUR_MAC_IP` with your Mac's Tailscale network IP address. **Warning:** Do not expose this service to the public internet without proper security measures.
+Replace `YOUR_MAC_IP` with your Mac's Tailscale network IP address.
+
+> [!WARNING]
+> Do not expose this service to the public internet without proper security measures.
